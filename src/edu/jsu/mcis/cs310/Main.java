@@ -1,5 +1,5 @@
 package edu.jsu.mcis.cs310;
-
+//William Saint 9/6/24
 public class Main {
 
     public static void main(String[] args) {
@@ -17,7 +17,8 @@ public class Main {
     }
     
     public String reverse(String message) {
-        return message;
+        
+        return new StringBuilder(message).reverse().toString();
     }
     
 }
